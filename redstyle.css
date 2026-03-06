@@ -1,0 +1,96 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.gradient {
+    background-color: darkblue;
+    background: linear-gradient(to bottom, rgb(69, 184, 251), rgba(21, 4, 108, 0.85));
+}
+
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ranchers-regular {
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+
+    color: rgb(249, 69, 69);
+    font-size: 50px;
+    background-color: rgb(139, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+h2 {
+
+    color: rgb(249, 69, 69);
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(24, 8, 62);
+    text-align: center;
+
+}
+
+h3 {
+    color: rgba(111, 14, 152, 0.903);
+    font-size: 60px;
+    position: relative;
+    bottom: 150px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 350px;
+
+}
+
+.emphasis {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(238, 74, 74);
+    color: rgb(84, 5, 5);
+}
+
+button:hover {
+    background: rgb(255, 0, 0);
+    border: 5px solid rgb(128, 0, 21);
+}
+
+.highlighted {
+    background-color: blanchedalmond;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 25px;
+    bottom: 175px;
+
+}
+
+.map {
+    width: 450px;
+    height: auto;
+    position: relative;
+    left: 400px;
+    top: 175px;
+    border-style: inset;
+}
