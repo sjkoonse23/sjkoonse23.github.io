@@ -1,21 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="webstylesheet.css">
-  <meta name="Nudibranchia Gallery" content="this is the gallery for Nudibranchia" author="Sarah Koonse">
-  <title>Nudibranchia Gallery</title>
-    </head>
-    <body class="gradient">
-        <div>
-            <header>
-                <h1>Gallery</h1>
-            </header>
 
-        </div>
-        <div class="container">
-            <img class="mainimg" src="img/NudibranchMain.jpg">
-            <div class="centered">Nudibranchia</div>
-        </div>
+<head>
+    <link rel="stylesheet" href="webstylesheet.css">
+    <meta name="Nudibranchia Current Exhibits" content="this is the page for current exhibits at Nudibranchia"
+        author="Sarah Koonse">
+    <title>Nudibranchia Current Exhibits</title>
+</head>
 
-    </body>
+<body class="gradient">
+    <div>
+        <header>
+            <nav class="top-bar">
+                <ul class="nav-links">
+                    <img class="title" src="img/logoandtitle.png">
+                    <li><a href="http://127.0.0.1:5500/NudibranchiaMainPage.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/NudibranchiaAboutUs.html">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/NudibranchiaIntheWild.html">Live Feed</a></li>
+                    <li><a href="http://127.0.0.1:5500/NudibranchiaGallery.html">Current Exhibits</a></li>
+                    <li> <a> <button id="tickets">TICKETS</button></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 id="gallery">Current Exhibits</h1>
+        <div id="galleryinfo">
+            <h2> Experience wonder underwater! </h2>
+            <h2>Adventure around the world and see nudibranchs from every ocean. </h2>
+            <h2>Dive in to the science behind these marvelous creatures.</h2>
+        </div>
+        <div class="image-flex-container">
+            <div class="container">
+                <img src="img/tropicals.jpg" alt="Tropical Nudibranch" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">
+                        <p>Nudibranchs of the Tropics:</p>
+                        <p>Their coloration is a warning to predators...
+                            Find out why these creatures should not be underestimated!
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/pnw.jpg" alt="Pacific Northwest Nudibranch" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">
+                        <p>Nudibranchs of the Pacific Northwest:</p>
+                        From Oregon tide pools to pacific depths,
+                        discover the nudibranchs that make their home close to ours.
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/rainbow.webp" alt="Multiple colorful nudibranchs" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">
+                        <p>Taste the Rainbow:</p>
+                        Nudibranchs really are what they eat. Learn how they source pigmentation from their diet.
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/Adaptations.jpg" alt="White deep sea sea slug" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">
+                        <p>All About Adapatation:</p>
+                        Explore Nudibranchia's research collection
+                        and find out all about advanced sea slug adpations
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="calltoaction">
+            <h3> <img src=img/Logo.png id="calltoactionlogo"> Calling all at-home scientists!</h3>
+            <p> Help Nudibranchia scientists identify and classify nudibranchs in our online database. <button id="calltoactionbutton"> Click here</button> to learn more!</p>
+        </div>
+</body>
+<footer id="footer">
+
+    <p>&copy; 2026 Nudibranchia. All rights reserved.</p>
+    <nav>
+        <a style="text-decoration: underline;">Privacy Policy</a>
+        <a style="text-decoration: underline;">Terms of Service</a>
+    </nav>
+    <address>
+        Contact us at <a href="mailto:sjkoonse@dons.usfca.edu">info@nudibranchia.com</a>
+    </address>
+</footer>
+
 </html>
